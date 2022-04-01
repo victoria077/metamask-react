@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.button {
+  background: green;
+  color: white;
+  padding: 10px 30px;
+  cursor: pointer;
+  font-size: 24px;
+  border-radius: 25px;
+  border: none;
+}
+
+.button:hover,
+.button:active {
+  background: olivedrab;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.login{
+  font-weight: bold;
+  font-size: 22px;
+}
+
